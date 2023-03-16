@@ -1,2 +1,2 @@
 # student-website
-This is my student website and portfolio
+This is my student website and portfolio.
