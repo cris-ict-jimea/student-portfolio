@@ -3,6 +3,35 @@ html {
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
 }
 
+nav {
+  background-color: #03c03c;
+  padding: .5em;
+  
+  /* scroll with content, then stick to the top left */ 
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  /* make this a flex container */
+  display: flex;
+
+  /* list items equally spaced: align centered horizontally and vertically */
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 5em;
+}
+
 
 h1 {
   font-size: 60px;
@@ -15,20 +44,12 @@ p, li {
   letter-spacing: 1px;
 }
 
-html {
-  background-color: #daf0ff;
-  background-image: url("https://wallpapercave.com/wp/8P5ql4P.jpg");
-  background-repeat:no-repeat;
-  background-size:cover;
-}
-
 body {
   width: 1400px;
   height: 900px;
   margin: 0 auto;
   background-color: #BEE5B0;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
 }
 
 h1 {
