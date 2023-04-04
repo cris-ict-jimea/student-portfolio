@@ -4,7 +4,7 @@ html {
 }
 
 nav {
-  background-color: #03c03c;
+  background-color: #0B0B45;
   padding: .5em;
   
   /* scroll with content, then stick to the top left */ 
@@ -26,12 +26,28 @@ nav ul {
   justify-content: space-between;
 }
 
+body {
+  width: 100%;
+  height: 900px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 0 20px 20px 20px;
+  background-image: url("");
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
   padding: .5em 5em;
 }
 
+.text-html {
+  width: 400px;
+  margin: 5px;
+  background-color: #0B0B45;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
 
 h1 {
   font-size: 60px;
@@ -44,18 +60,11 @@ p, li {
   letter-spacing: 1px;
 }
 
-body {
-  width: 1400px;
-  height: 900px;
-  margin: 0 auto;
-  background-color: #BEE5B0;
-  padding: 0 20px 20px 20px;
-}
 
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: #32CD32;
+  color: lightblue;
   text-shadow: 3px 3px 1px black;
 }
 
@@ -74,4 +83,12 @@ img {
   float: right;
 }
 
+.pics {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
