@@ -92,3 +92,30 @@ img {
   grid-template-columns: 1fr 1fr;
   gap: 1px;
 }
+
+.grid {
+  /* existing attributes ... */
+
+  /* two column layout with first column 3 times larger (proportionally) */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+main article {
+  /* a little padding looks nice */
+  padding-right: 1em;
+}
+
+.photos {
+  list-style: none;
+  margin-left: 10px;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.photos img {
+  width: 150px;
+}
