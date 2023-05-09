@@ -1,13 +1,15 @@
 html {
-  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
-  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  font-size: 10px;
+  /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* this should be the rest of the output you got from Google fonts */
 }
 
 nav {
   background-color: #0B0B45;
   padding: .5em;
-  
-  /* scroll with content, then stick to the top left */ 
+
+  /* scroll with content, then stick to the top left */
   position: sticky;
   top: 0px;
   left: 0px;
@@ -52,35 +54,34 @@ nav a {
 h1 {
   font-size: 60px;
   text-align: center;
-}
-
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-
-h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 20px 0;
   color: lightblue;
-  text-shadow: 3px 3px 1px black;
+  text-shadow: 3px 3px 1px darkblue;
+  
+}
+
+
+.letters {
+  font-size: 16px;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 img {
   display: block;
   margin: 0 auto;
-}
-
-.gren {
-  width: 200px;
-  height: 200px;
-}
-
-.eat {
-  margin: 6;
-  float: right;
 }
 
 .pics {
@@ -98,7 +99,7 @@ img {
 
   /* two column layout with first column 3 times larger (proportionally) */
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 
 main article {
@@ -118,4 +119,12 @@ main article {
 
 .photos img {
   width: 150px;
+}
+
+h3 {
+  margin-left: 230px;
+  text-shadow: #0B0B45;
+  text-decoration-style: double;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
