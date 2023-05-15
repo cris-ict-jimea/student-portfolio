@@ -7,6 +7,7 @@ html {
 
 nav {
   background-color: #0B0B45;
+  background-image: linear-gradient(to right, #047619 0%, #D23B68 50%, #00ff2a 0%, #d63867 50%, #047619 100%);
   padding: .5em;
 
   /* scroll with content, then stick to the top left */
@@ -54,12 +55,12 @@ nav a {
 h1 {
   font-size: 60px;
   text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 20px 0;
-  color: lightblue;
-  text-shadow: 3px 3px 1px darkblue;
-  
+  color: #43ef5f;
+  text-shadow: 3px 3px 1px #D23B68;
+
 }
 
 
