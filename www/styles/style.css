@@ -34,14 +34,28 @@ body {
   height: 900px;
   margin: 0 auto;
   background-color: #FFFFFF;
-  padding: 0 20px 20px 20px;
+  padding: 0;
   background-image: url("");
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
   padding: .5em 5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(0, 255, 60);
 }
 
 .text-html {
@@ -102,6 +116,10 @@ img {
   grid-template-columns: 2fr 1fr;
 }
 
+.grid aside {
+  padding-right: 15em;
+}
+
 main article {
   /* a little padding looks nice */
   padding-right: 1em;
@@ -109,12 +127,13 @@ main article {
 
 .photos {
   list-style: none;
-  margin-left: 10px;
+  margin-left: 200px;
   padding: 0;
+  width: 400px;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 .photos img {
@@ -122,7 +141,8 @@ main article {
 }
 
 h3 {
-  margin-left: 230px;
+  margin-left: 195px;
+  text-align: center;
   text-shadow: #0B0B45;
   text-decoration-style: double;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -131,6 +151,11 @@ h3 {
 
 .achieve {
   width: 450px;
+}
+
+.most {
+  width: 450px;
+  transform: rotate(-90deg);
 }
 
 h2 {
@@ -146,4 +171,34 @@ h2 {
 h4 {
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h5 {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.honor {
+  width: 450px;
+  transform: rotate(-90deg)
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 60%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
 }
